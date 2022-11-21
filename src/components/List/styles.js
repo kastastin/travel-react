@@ -11,13 +11,13 @@ export default makeStyles((theme) => ({
     height: '600px', display: 'flex', justifyContent: 'center', alignItems: 'center',
   },
   container: {
-    padding: '20px',
+    padding: '5px 20px 20px 20px',
   },
   marginBottom: {
     marginBottom: '20px',
   },
   list: {
-    height: '70vh',
+    height: '73vh',
     overflow: 'auto'
   }
 }));
