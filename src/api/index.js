@@ -12,7 +12,7 @@ export const getPlacesData = async (sw, ne) => {
         tr_longitude: ne.lng,
       },
       headers: {
-        'X-RapidAPI-Key': '5d07a04db8mshca2effab91e5cd4p1250e3jsn00f126e30a0c',
+        'X-RapidAPI-Key': 'fc6b23ec25mshab62c43167a7b13p1750e3jsn00345051afe8',
         'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
       }
     });
@@ -22,3 +22,5 @@ export const getPlacesData = async (sw, ne) => {
     console.log(error);
   }
 };
+
+// 5d07a04db8mshca2effab91e5cd4p1250e3jsn00f126e30a0c my422/500

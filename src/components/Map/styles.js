@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/styles';
 
 export default makeStyles(() => ({
   paper: {
-    padding: '10px',
+    padding: '7px',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -19,6 +19,9 @@ export default makeStyles(() => ({
     '&:hover': { zIndex: 2 }
   },
   pointer: {
-    cursor: 'pointer'
+    cursor: 'pointer',
+  },
+  star: {
+    display: 'none'
   }
 }));
