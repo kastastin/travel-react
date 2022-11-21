@@ -20,8 +20,5 @@ export default makeStyles(() => ({
   },
   pointer: {
     cursor: 'pointer',
-  },
-  star: {
-    display: 'none'
   }
 }));

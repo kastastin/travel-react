@@ -45,7 +45,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked }
                     src={place.photo ? place.photo.images.large.url : 'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
                     alt={place.name}
                   />
-                  <Rating className={classes.star} name='read-only' value={Number(place.rating)} size='small' readOnly />
+                  <Rating name='read-only' value={Number(place.rating)} size='small' readOnly />
                 </Paper>
               )
             }
